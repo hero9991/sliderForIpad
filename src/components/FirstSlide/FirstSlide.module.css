@@ -1,0 +1,79 @@
+.title{
+    font-size: 55px;
+    font-weight: 300;
+    max-width: 760px;
+    position: absolute;
+    top: 130px;
+    left: 72px;
+}
+.text{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.text div{
+    position: absolute
+}
+.text_1{
+    top: 275px;
+    left: 624px;
+}
+.text_2{
+    top: 395px;
+    left: 224px;
+}
+.text_3{
+    top: 506px;
+    left: 374px;
+}
+.text_4{
+    top: 484px;
+    left: 784px;
+}
+.bottom{
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.bottom span{
+    position: relative;
+    bottom: 53px;
+    left: 24px;
+}
+.active_bottom:after{
+    content: '';
+    background: url(../../assets/slide-1/next.png);
+    width: 900px;
+    position: absolute;
+    bottom: 0;
+    background-size: cover;
+    height: 100px;
+    left: 47.5%;
+    transform: translateX(-50%);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+@media (max-width: 1000px) {
+    .text_1{
+        top: 370px;
+        left: 474px;
+    }
+    .text_2{
+        top: 574px;
+        left: 54px;
+    }
+    .text_3{
+        top: 676px;
+        left: 217px;
+    }
+    .text_4{
+        top: 684px;
+        left: 632px;
+    }
+}

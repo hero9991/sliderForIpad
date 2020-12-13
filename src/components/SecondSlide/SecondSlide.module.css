@@ -1,0 +1,10 @@
+.title{
+    position: absolute;
+    top:30%;
+    left: 50%;
+    font-size: 55px;
+    font-weight: 200;
+    transform: translateX(-50%);
+    color: #fff;
+    text-align: center;
+}
